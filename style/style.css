@@ -282,7 +282,7 @@ footer .links ul {
   margin: 7px;
 }
 
-footer .links ul li a{
+footer .links ul li a {
   padding: 9px;
   color: #dec7c7;
   font-size: 18px;
@@ -361,11 +361,21 @@ footer p a {
     font-size: 8vh;
   }
 
-  .about .row{
+  .about .row {
     display: block;
     font-size: 1.2rem;
     text-align: center;
   }
+}
 
+/* Phone */
 
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero .content h1 {
+    font-size: 5vh;
+  }
 }
