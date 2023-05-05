@@ -7,6 +7,10 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --primary: #ff99a1;
   --btn-whatsapp: #3bb66b;
@@ -373,9 +377,5 @@ footer p a {
 @media (max-width: 450px) {
   html {
     font-size: 50%;
-  }
-
-  .hero .content h1 {
-    font-size: 3vh;
   }
 }
