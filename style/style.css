@@ -378,4 +378,8 @@ footer p a {
   html {
     font-size: 50%;
   }
+
+  .hero .content h1 {
+    font-size: 5vh;
+  }
 }
