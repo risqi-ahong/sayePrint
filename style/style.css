@@ -88,6 +88,22 @@ body {
   margin: 0.5rem;
 }
 
+.navbar .navbar-extra input {
+  position: relative;
+  bottom: 0.3rem;
+  padding: 0.2rem;
+  width: 60%;
+  font-size: 1.5rem;
+  background-color: rgba(250, 235, 239, 0.7);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: 1px 1px 12px rgba(234, 131, 158, 0.8);
+  font-family: sans-serif;
+}
+
 .navbar .navbar-extra a:hover {
   color: var(--primary);
 }
@@ -315,7 +331,7 @@ footer p a {
 }
 
 /* Tablet */
-@media (max-width: 758px) {
+@media (max-width: 858px) {
   html {
     font-size: 65%;
   }
@@ -381,5 +397,10 @@ footer p a {
 
   .hero .content h1 {
     font-size: 6vh;
+  }
+
+  .navbar .navbar-extra input {
+    position: relative;
+    bottom: 0.8rem;
   }
 }
